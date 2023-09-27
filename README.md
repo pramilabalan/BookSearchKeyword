@@ -1,1 +1,6 @@
 # BookSearchKeyword
+
+## Problem Statement
+For every book we sell, we create an accompanying record in our database of product metadata. This metadata includes features like the title, author name, and physical dimensions of the book, but also descriptive information like the blurb and genre. All of this data is sent to online retailers like Amazon, who then index it for search - so that if a reader searches for the book’s title, or genre, it should (hopefully!) appear in search results.
+One of the most important metadata fields for search and discoverability on online platforms is the list of plaintext keywords we assign to each book. These keywords should describe aspects of each book's content - so, for a thriller set in ancient Rome, we might add the keyword ancient roman thriller, or historical thriller, with the idea being that when readers search for these terms, our book will appear in search results.
+When assigning keywords to books, as well as using human expertise, we want a system that automatically suggests known user search queries for each of our books, so that we can add keywords which we know people are actually searching for, hopefully boosting our books’ discoverability.
